@@ -1,0 +1,18 @@
+### 1.4 Actividad 1: Tipos de Cómputo
+#### Objetivo
+Comprender la principales características del cómputo concurrente, paralelo y distribuido
+
+#### Actividad
+Elaborar una tabla de doble entrada, donde se comparen los diferentes tipos de cómputo (establecer criterios de comparación)
+
+| **Tipo de Cómputo**     | **Definición**                                                                                                                   | **Diferencias**                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Cómputo Concurrente** | Ejecución de múltiples cómputos de manera independiente, no necesariamente simultánea.                                           | - **Recursos Utilizados:** Múltiples tareas comparten los mismos recursos (como una CPU). <br> - **Escalabilidad:** Escala dentro de un solo sistema. <br> - **Comunicación:** Comunicación entre tareas a través de mecanismos de sincronización en el mismo sistema. <br> - **Aplicaciones Típicas:** Sistemas operativos, servidores web.                                                                           |
+| **Cómputo Paralelo**    | Ejecución simultánea de múltiples procesos, dividiendo un problema grande en subproblemas que pueden resolverse al mismo tiempo. | - **Recursos Utilizados:** Múltiples tareas utilizan diferentes recursos simultáneamente (como múltiples núcleos de una CPU). <br> - **Escalabilidad:** Escala con el número de procesadores o núcleos disponibles. <br> - **Comunicación:** Comunicación entre tareas a través de memoria compartida o interconexión de núcleos. <br> - **Aplicaciones Típicas:** Computación científica, simulaciones, gráficos.     |
+| **Cómputo Distribuido** | Estudio de sistemas computacionales distribuidos en distintas redes o ubicaciones que se comunican para lograr una tarea común.  | - **Recursos Utilizados:** Múltiples sistemas distribuidos geográficamente o en una red trabajan juntos. <br> - **Escalabilidad:** Escala a través de la adición de más nodos en la red. <br> - **Comunicación:** Comunicación a través de la red, lo que puede introducir latencia. <br> - **Aplicaciones Típicas:** Sistemas de computación en la nube, bases de datos distribuidas, sistemas de búsqueda en la web. |
+
+#### Referencias bibliograficas
+* ChatGPT. (n.d.). https://chatgpt.com/share/058c4da6-17e3-4deb-b475-4d9728b52093
+* Wikipedia contributors. (2024, August 17). Concurrent computing. Wikipedia. https://en.wikipedia.org/wiki/Concurrent_computing
+* Wikipedia contributors. (2024b, August 17). Distributed computing. Wikipedia. https://en.wikipedia.org/wiki/Distributed_computing
+* Wikipedia contributors. (2024b, August 17). Parallel computing. Wikipedia. https://en.wikipedia.org/wiki/Parallel_computing
