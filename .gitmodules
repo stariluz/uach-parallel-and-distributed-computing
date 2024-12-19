@@ -1,0 +1,12 @@
+[submodule "kafka"]
+	path = kafka
+	url = https://github.com/stariluz/uach-pdc-kafka
+[submodule "uach-pdc-chat"]
+	path = uach-pdc-chat
+	url = https://github.com/stariluz/uach-pdc-chat
+[submodule "apples-network"]
+	path = apples-network
+	url = https://github.com/stariluz/uach-pdc-odb-links-1
+[submodule "banks"]
+	path = banks
+	url = https://github.com/stariluz/pdc-oracledb-2
